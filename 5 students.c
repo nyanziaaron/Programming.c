@@ -6,7 +6,7 @@ int main() {
     char name[50];
     int marks, i;
     // Open the file in write mode
-    fptr = fopen("C:\PROGRAMMING\C\.txt", "w");
+    fptr = fopen("C:\PROGRAMMING\C\students.txt", "w");
     if (fptr == NULL) {
         printf("Error opening the file.\n");
         exit(1);
